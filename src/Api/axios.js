@@ -2,7 +2,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://45.236.128.209/api",
+  baseURL: "https://koryzen.facstock.com/api",
 });
 
 api.interceptors.request.use((config) => {
